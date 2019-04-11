@@ -1,0 +1,11 @@
+body {
+    margin-top: 50px;
+    background: #333;
+    color: #fff;
+    overflow: hidden;
+}
+
+.form-group {
+    margin-top: 30px;
+}
+

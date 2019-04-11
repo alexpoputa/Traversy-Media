@@ -1,0 +1,42 @@
+body {
+  background: url('img/a1.jpeg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+  	font-size: 15px;
+  	text-align:auto;
+  	color:#fffaf0;
+
+
+}
+
+.title{
+  	font-size:60px;
+  	color:#fffaf0;
+  	font-family:  Oswald;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    color:#fffaf0;
+    display:inline;
+    font-size: 25px;
+    font-family: Satisfy;
+
+#random{
+	border-radius: 5%;
+	outline: none;
+	font-family:  Oswald;
+}
+
+#searchKey{
+	border-radius: 2%;
+	border-color: transparent;
+	outline: none;
+	font-family:  Oswald;
+}
+
+

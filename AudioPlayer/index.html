@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title>HTML5 Audio Player</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- Player Image -->
+        <div id="audio-img">
+            <img class="cover">
+        </div>
+        <div id="audio-player">
+            <!-- Player Info -->
+            <div id="audio-info">
+                <span class="artist"></span> - <span class="title"></span>
+            </div>
+            <input type="range" id="volume" min="0" max="10" value="5">
+            <br>
+            <!-- Player Buttons -->
+            <div id="audio-buttons">
+                <button id="prev"></button>
+                <button id="play"></button>
+                <button id="pause"></button>
+                <button id="stop"></button>
+                <button id="next"></button>
+            </div>
+            <div class="clearfix"></div>
+            <!-- Player Tracker -->
+            <div id="tracker">
+                <div id="progressbar">
+                    <span id="progress"></span>
+                </div>
+                <span id="duration"></span>
+            </div>
+            <div class="clearfix"></div>
+            <!-- Player Playlist -->
+            <ul id="playlist">
+                <li song="Linkin Park-Burn It Down.mp3" cover="cover1.jpg" artist="Linkin Park">Burn It Down.mp3</li>
+                <li song="Linkin Park-Bleed It Out.mp3" cover="cover1.jpg" artist="Linkin Park">Bleed It Out.mp3</li>
+                <li song="Linkin Park-One Step Closer.mp3" cover="cover1.jpg" artist="Linkin Park">One Step Closer.mp3</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
